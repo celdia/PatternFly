@@ -1,0 +1,8 @@
+name: PatternFly
+type: theme
+description: 'A site builder friendly PatternFly theme, using the UI Suite modules: UI Pattern, UI Style, UI Skins, Layout options & UI examples modules'
+core_version_requirement: ^10 || ^11
+base theme: false
+libraries:
+  - 'patternfly/patternfly'
+

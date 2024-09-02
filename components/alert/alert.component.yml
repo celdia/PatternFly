@@ -1,0 +1,57 @@
+name: Alert
+description: 'Provides brief information to the user without blocking their workflow.'
+links:
+  - 'https://www.patternfly.org/components/alert'
+props:
+  type: object
+  properties:
+    icon:
+      title: Icon
+      type: string
+    dismissible:
+      title: Dismissible
+      type: boolean
+variants:
+  custom:
+    title: Custom
+  info:
+    title: Info
+  success:
+    title: Success
+  warning:
+    title: Warning
+  danger:
+    title: Danger
+slots:
+  title:
+    title: title
+  description:
+    title: Description
+  actions:
+    title: Actions
+stories:
+  default:
+    title: Default
+    slots:
+      title: "Hello world"
+      description: "hello"
+      actions:
+        - type: component
+          component: "patternfly:badge"
+          story: default
+  dismissible:
+    title: Dismissible
+    props:
+      dismissible: true
+    slots:
+      title: "Hello world"
+      description: "hello"
+      actions:
+        - type: component
+          component: "patternfly:badge"
+          story: default
+
+
+
+
+

@@ -1,0 +1,31 @@
+name: Banner
+description: 'Provide a 1-line, full color, full width container that can be used to communicate short snippets of information to users.'
+links:
+  - 'https://www.patternfly.org/components/banner'
+variants:
+  default:
+    title: Default
+  blue:
+    title: Blue
+  red:
+    title: Red
+  green:
+    title: Green
+  gold:
+    title: Gold
+props:
+  type: object
+  properties:
+    sticky:
+      type: boolean
+      title: Sticky
+      description: If true the banner be sticky by scroll down in page
+slots:
+  content:
+    title: Content
+    description: The banner content
+stories:
+  default:
+    title: Default
+    slots:
+      content: "Hello world"

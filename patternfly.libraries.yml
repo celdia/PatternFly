@@ -1,0 +1,6 @@
+patternfly:
+  css:
+    theme:
+      'https://cdn.jsdelivr.net/npm/@patternfly/patternfly@5.3.1/patternfly.min.css': { type: external, minified: true }
+
+

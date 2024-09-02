@@ -1,0 +1,15 @@
+name: Badge
+slots:
+  label:
+    title: Label
+    description: The label of badge
+variants:
+  read:
+    title: Read
+  unread:
+    title: Unread
+stories:
+  default:
+    title: Default
+    slots:
+      label: "Hello world"
