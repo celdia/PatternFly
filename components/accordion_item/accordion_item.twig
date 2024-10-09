@@ -1,0 +1,23 @@
+<div {{ attributes }}> 
+     <h3>
+      <button
+        class="pf-v5-c-accordion__toggle {{ expanded ? 'pf-m-expanded' : '' }}"
+        type="button"
+        aria-expanded="{{ expanded ? 'true' : 'false' }}"
+      >
+        <span class="pf-v5-c-accordion__toggle-text">{{ title }}</span>
+        <span class="pf-v5-c-accordion__toggle-icon">
+          <i class="fas fa-angle-right" aria-hidden="true"></i>
+        </span>
+      </button>
+    </h3>
+    <div
+      class="pf-v5-c-accordion__expandable-content {{ expanded ? 'pf-m-expanded' : '' }}"
+      {% if not expanded %}hidden{% endif %}
+    >
+      <div class="pf-v5-c-accordion__expandable-content-body">
+        {{ content }}
+      </div>
+    </div>
+    </div>
+ 
