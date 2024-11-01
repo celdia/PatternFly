@@ -1,4 +1,4 @@
-{% set attibutes = (variant and variant != "default") ? attributes.addClass("pf-m-" ~ variant) : attributes %}
+{% set attributes = (variant and variant != "default") ? attributes.addClass("pf-m-" ~ variant) : attributes %}
 {% set attributes = sticky ? attributes.addClasses("pm-m-sticky") : attributes %}
 <div {{ attributes.addClass('pf-v5-c-banner') }}>
     {{ content }}

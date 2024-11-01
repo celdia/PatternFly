@@ -1,0 +1,13 @@
+{% set attributes = (variant and variant != 'default' ) ? attributes.addClass('pf-m-' ~ variant) : attributes %}
+{% set tab_index = (variant == 'disabled') ? -1 : 0 %}
+{% set icon_class = 'fas fa-plus' %}
+
+<div {{ attributes.addClass('pf-v5-c-tile').setAttribute("tabindex", tabindex) }}>
+  <div class="pf-v5-c-tile__header">    
+      <div class="pf-v5-c-tile__icon">
+        <i class="{{ icon_class }}" aria-hidden="true"></i>
+      </div>    
+    <div class="pf-v5-c-tile__title">{{ title }}</div>
+  </div>  
+    <div class="pf-v5-c-tile__body">{{ subtext }}</div>  
+</div>
