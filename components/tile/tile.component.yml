@@ -1,10 +1,10 @@
 name: Tile
 description: a form of selection that can be used in place of a radio button and is commonly used in forms
 links:
-  - 'https://www.patternfly.org/components/tile'
+  - "https://www.patternfly.org/components/tile"
 props:
   type: object
-  properties:    
+  properties:
     icon:
       type: string
       title: Icon
@@ -24,5 +24,5 @@ stories:
   default:
     title: Default
     slots:
-      title: 'Hello world'
-      subtext: 'Hello all the world'
+      title: "Hello world"
+      subtext: "Hello all the world"

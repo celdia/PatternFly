@@ -1,13 +1,13 @@
 name: PatternFly
 type: theme
-description: 'A site builder friendly PatternFly theme, using the UI Suite modules: UI Patterns, UI Style, UI Skins & UI Examples'
+description: "A site builder friendly PatternFly theme, using the UI Suite modules: UI Patterns, UI Style, UI Skins & UI Examples"
 core_version_requirement: ^10 || ^11
 base theme: false
 dependencies:
   - ui_patterns:ui_patterns
 libraries:
-  - 'patternfly/patternfly_cdn'
+  - "patternfly/patternfly_cdn"
 regions:
-  header: 'Header'
-  sidebar: 'Sidebar'
-  main: 'Main'
+  header: "Header"
+  sidebar: "Sidebar"
+  main: "Main"
