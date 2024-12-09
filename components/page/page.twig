@@ -1,0 +1,13 @@
+<div {{ attributes.addClass('pf-v6-c-page') }}>
+  {{ header }}
+  {% if sidebar %}
+  <div class="pf-v6-c-page__sidebar">
+    <div class="pf-v6-c-page__sidebar-body">{{ sidebar }}</div>
+  </div>
+  {% endif %}
+  <div class="pf-v6-c-page__main-container" tabindex="-1">
+    <main class="pf-v6-c-page__main" tabindex="-1">
+        {{ main }}
+    </main>
+  </div>
+</div>

@@ -7,5 +7,3 @@ patternfly_cdn:
   css:
     theme:
       'https://cdn.jsdelivr.net/npm/@patternfly/patternfly@6.0.0/patternfly.min.css': { type: external, minified: true }
-
-

@@ -26,7 +26,7 @@
         </tr>
       {% endfor %}
       {% for prop_id, prop in component.props.properties %}
-        {% if prop_id != 'attributes' %}
+        {% if prop_id != 'attributes' and prop_id != 'variant' %}
           <tr class="ui_patterns_component_table__prop pf-v6-c-table__tr">
             <td class="pf-v6-c-table__td">
               <code>{{ prop_id }}</code>

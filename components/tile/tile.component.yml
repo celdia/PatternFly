@@ -10,9 +10,9 @@ props:
       title: Icon
 variants:
   default:
-    title: default
+    title: Default
   selected:
-    tiltle: selected
+    title: Selected
   disabled:
     title: Disabled
 slots:

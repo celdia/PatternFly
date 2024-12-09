@@ -1,5 +1,5 @@
 {% set attributes = (variant != "default") ? attributes.addClass("pf-m-" ~ variant) : attributes %}
-{% set attributes = sticky ? attributes.addClasses("pm-m-sticky") : attributes %}
+{% set attributes = sticky ? attributes.addClass("pm-m-sticky") : attributes %}
 {% if status %}
   {% set attributes = attributes.addClass('pfm-' ~ status) %}
 {% endif %}
