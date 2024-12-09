@@ -1,0 +1,8 @@
+name: Basic
+slots:
+  logo:
+    type: html_tag
+    tag: img
+    attributes:
+      src: "https://avatars.githubusercontent.com/u/6391110?s=200&v=4"
+  content: Lorem Ipsum

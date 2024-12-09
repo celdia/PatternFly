@@ -1,0 +1,8 @@
+name: Default
+slots:
+  header:
+    type: component
+    component: "patternfly:masthead"
+    story: basic
+  sidebar: "Navigation"
+  main: This is a default main section.

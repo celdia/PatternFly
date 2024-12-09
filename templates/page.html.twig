@@ -34,7 +34,12 @@
  */
 #}
 {{ include('patternfly:page', {
-  header: page.header,
+  header: include('patternfly:masthead', {
+    main: page.header_main,
+    logo: page.header_logo,
+    content: page.header_content,
+    logo_url: url('<front>'),
+  }, with_context=false),
   sidebar: page.sidebar,
-  main: page.main,
-}) }}
+  main: page.content,
+}, with_context=false) }}

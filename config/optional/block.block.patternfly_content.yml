@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - patternfly
+_core:
+  default_config_hash: jitEpwOpF5Lm78N8RHZ3twXehMuEiAGVJfQRIJaPmI8
+id: patternfly_content
+theme: patternfly
+region: content
+weight: 2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
