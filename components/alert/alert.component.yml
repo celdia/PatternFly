@@ -1,7 +1,7 @@
 name: Alert
-description: 'Provides brief information to the user without blocking their workflow.'
+description: "Provides brief information to the user without blocking their workflow."
 links:
-  - 'https://www.patternfly.org/components/alert'
+  - "https://www.patternfly.org/components/alert"
 props:
   type: object
   properties:
@@ -29,9 +29,3 @@ slots:
     title: Description
   actions:
     title: Actions
-
-
-
-
-
-

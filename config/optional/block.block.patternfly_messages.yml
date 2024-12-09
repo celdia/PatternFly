@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - patternfly
+_core:
+  default_config_hash: lpZ4GMeUmSuH8aB11ZW1QepYmeUUK7CWajpXwlPf6k8
+id: patternfly_messages
+theme: patternfly
+region: content
+weight: -2
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

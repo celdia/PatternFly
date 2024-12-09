@@ -1,0 +1,18 @@
+<nav {{ attributes.addClass('pf-v6-c-breadcrumb').setAttribute('aria-label', 'breadcrumb') }}>
+  {% if items %}
+  <ol class="pf-v6-c-breadcrumb__list" role="list">
+    {% for item in items %}
+    <li class="pf-v6-c-breadcrumb__item">
+      <span class="pf-v6-c-breadcrumb__item-divider">
+        <i class="fas fa-angle-right" aria-hidden="true"></i>
+      </span>
+      {% if item.url %}
+      <a href="{{ item.url }}" class="pf-v6-c-breadcrumb__link">{{ item.title }}</a>
+      {% else %}
+      {{ item.title }}
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+  {% endif %}
+</nav>

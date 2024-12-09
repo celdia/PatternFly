@@ -1,0 +1,10 @@
+name: Breadcrumb
+description: "A secondary navigation method that shows where users are in an application, to help them navigate more efficiently."
+links:
+  - "https://www.patternfly.org/components/breadcrumb"
+props:
+  type: object
+  properties:
+    items:
+      title: Items
+      $ref: "ui-patterns://links"

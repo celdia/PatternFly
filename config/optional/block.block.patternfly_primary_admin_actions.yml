@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  theme:
+    - patternfly
+_core:
+  default_config_hash: wyzjW89PzTgn6oFKKAst2FpHGjWxpQRxCTRUl0v581c
+id: patternfly_primary_admin_actions
+theme: patternfly
+region: content
+weight: 1
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

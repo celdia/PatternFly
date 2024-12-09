@@ -1,6 +1,6 @@
 name: Accordion Item
 links:
-  - 'https://www.patternfly.org/components/accordion'
+  - "https://www.patternfly.org/components/accordion"
 props:
   type: object
   properties:
@@ -17,8 +17,6 @@ stories:
     title: Default
     slots:
       title: "Hello world"
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis molestie lorem lacinia dolor aliquet faucibus. Suspendisse gravida imperdiet accumsan. Aenean auctor lorem justo, vitae tincidunt enim blandit vel. Aenean quis tempus dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit."      
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis molestie lorem lacinia dolor aliquet faucibus. Suspendisse gravida imperdiet accumsan. Aenean auctor lorem justo, vitae tincidunt enim blandit vel. Aenean quis tempus dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     props:
       expanded: true
-      
-  

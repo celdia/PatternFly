@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - patternfly
+_core:
+  default_config_hash: AmhN5pZjW51cmM9bv5E4ginmswuc-IiuqeSy7EuQTx8
+id: patternfly_breadcrumbs
+theme: patternfly
+region: content
+weight: -4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

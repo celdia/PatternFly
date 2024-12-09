@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  theme:
+    - patternfly
+_core:
+  default_config_hash: 5rDnjEZUT5GrevFMTzhqjiWHkTiU7uJcgLl5OrG25tw
+id: patternfly_page_title
+theme: patternfly
+region: header_content
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

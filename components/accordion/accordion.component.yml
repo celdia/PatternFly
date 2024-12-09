@@ -1,12 +1,12 @@
 name: Accordion
-description: 'An interactive container that expands and collapses to hide or reveal nested content.'
+description: "An interactive container that expands and collapses to hide or reveal nested content."
 links:
-  - 'https://www.patternfly.org/components/accordion'
+  - "https://www.patternfly.org/components/accordion"
 variants:
   default:
     title: Default
   bordered:
-    title: Bordered    
+    title: Bordered
 slots:
   items:
     title: Items
@@ -15,11 +15,9 @@ stories:
     title: Default
     slots:
       items:
-      - type: component
-        component: 'patternfly:accordion_item'
-        story: default
-      - type: component
-        component: 'patternfly:accordion_item'
-        story: default
-          
-  
+        - type: component
+          component: "patternfly:accordion_item"
+          story: default
+        - type: component
+          component: "patternfly:accordion_item"
+          story: default

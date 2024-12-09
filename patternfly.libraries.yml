@@ -1,11 +1,12 @@
 patternfly_cdn:
   remote: https://www.patternfly.org/
   license:
-      name: MIT
-      url: https://github.com/patternfly/patternfly/blob/main/LICENSE.txt
-      gpl-compatible: false
+    name: MIT
+    url: https://github.com/patternfly/patternfly/blob/main/LICENSE.txt
+    gpl-compatible: false
   css:
     theme:
-      'https://cdn.jsdelivr.net/npm/@patternfly/patternfly@6.0.0/patternfly.min.css': { type: external, minified: true }
-
-
+      "https://cdn.jsdelivr.net/npm/@patternfly/patternfly@6.0.0/patternfly.min.css":
+        { type: external, minified: true }
+      "https://cdn.jsdelivr.net/npm/@patternfly/patternfly@6.0.0/patternfly-addons.css":
+        { type: external }

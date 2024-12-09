@@ -1,0 +1,11 @@
+name: Page
+description: "Defines the basic layout of a page, with either vertical or horizontal navigation."
+links:
+  - "https://www.patternfly.org/components/page"
+slots:
+  header:
+    title: Header
+  sidebar:
+    title: Sidebar
+  main:
+    title: Main
