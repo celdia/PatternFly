@@ -5,14 +5,22 @@ links:
 variants:
   default:
     title: Default
-  blue:
-    title: Blue
   red:
     title: Red
+  orangered:
+    title: Orangered
+  orange:
+    title: Orange
+  yellow:
+    title: Yellow
   green:
     title: Green
-  gold:
-    title: Gold
+  teal:
+    title: Teal
+  blue:
+    title: Blue
+  purple:
+    title: Purple
 props:
   type: object
   properties:
@@ -24,8 +32,4 @@ slots:
   content:
     title: Content
     description: The banner content
-stories:
-  default:
-    title: Default
-    slots:
-      content: "Hello world"
+

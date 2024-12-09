@@ -3,6 +3,17 @@ type: theme
 description: 'A site builder friendly PatternFly theme, using the UI Suite modules: UI Pattern, UI Style, UI Skins, Layout options & UI examples modules'
 core_version_requirement: ^10 || ^11
 base theme: false
+dependencies:
+  - ui_patterns:ui_patterns
 libraries:
-  - 'patternfly/patternfly'
+  - 'patternfly/patternfly_cdn'
+
+regions:
+  navbar_start: Navbar start
+  navbar_center: Navbar center
+  navbar_end: Navbar end
+  content: Content
+  sidebar: Sidebar
+  footer: Footer
+
 

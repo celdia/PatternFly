@@ -29,27 +29,7 @@ slots:
     title: Description
   actions:
     title: Actions
-stories:
-  default:
-    title: Default
-    slots:
-      title: "Hello world"
-      description: "hello"
-      actions:
-        - type: component
-          component: "patternfly:badge"
-          story: default
-  dismissible:
-    title: Dismissible
-    props:
-      dismissible: true
-    slots:
-      title: "Hello world"
-      description: "hello"
-      actions:
-        - type: component
-          component: "patternfly:badge"
-          story: default
+
 
 
 

@@ -8,8 +8,4 @@ variants:
     title: Read
   unread:
     title: Unread
-stories:
-  default:
-    title: Default
-    slots:
-      label: "Hello world"
+
