@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - patternfly
+_core:
+  default_config_hash: Uo8cmapIRt8BLMHeyCLoqDd72Zk7juS2MBb0lbKWs0I
+id: patternfly_help
+theme: patternfly
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

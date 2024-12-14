@@ -1,16 +1,16 @@
 {# Mapping des icônes en fonction des variantes #}
 {% set icons = {
-  'custom': 'fas fa-fw fa-bell',
-  'info': 'fas fa-fw fa-info-circle',
-  'success': 'fas fa-fw fa-check-circle',
-  'warning': 'fas fa-fw fa-exclamation-triangle',
-  'danger': 'fas fa-fw fa-exclamation-circle'
+  custom: 'fas fa-fw fa-bell',
+  info: 'fas fa-fw fa-info-circle',
+  success: 'fas fa-fw fa-check-circle',
+  warning: 'fas fa-fw fa-exclamation-triangle',
+  danger: 'fas fa-fw fa-exclamation-circle',
 } %}
 
 {# Définir les classes dynamiques en fonction de la variante #}
 {% set alert_classes = [
   'pf-v6-c-alert',
-  'pf-m-' ~ variant|default('custom')
+  'pf-m-' ~ variant|default('custom'),
 ] %}
 
 {# Définir l'icône en fonction de la variante #}
@@ -46,6 +46,3 @@
     </div>
   {% endif %}
 </div>
-
-
-

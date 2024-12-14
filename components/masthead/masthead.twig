@@ -1,0 +1,21 @@
+<header{{ attributes.addClass('pf-v6-c-masthead') }}>
+  <div class="pf-v6-c-masthead__main">
+    {{ main }}
+    {% if logo %}
+    <div class="pf-v6-c-masthead__brand">
+      {% if logo_url %}
+      <a class="pf-v6-c-masthead__logo" href="{{ logo_url }}">
+        {{ logo }}
+      </a>
+      {% else %}
+      <div class="pf-v6-c-masthead__logo">
+        {{ logo }}
+      </div>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+  <div class="pf-v6-c-masthead__content">
+    {{ content }}
+  </div>
+</header>

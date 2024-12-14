@@ -8,10 +8,10 @@
   <table class="ui_patterns_component_table views-table pf-v6-c-table" style="width: 100%;">
     <thead class="pf-v6-c-table__thead">
       <tr class="pf-v6-c-table__tr">
-        <th class="pf-v6-c-table__th">{{ "Name"|t }}</th>
-        <th class="pf-v6-c-table__th">{{ "Label"|t }}</th>
-        <th class="pf-v6-c-table__th">{{ "Type"|t }}</th>
-        <th class="pf-v6-c-table__th">{{ "Description"|t }}</th>
+        <th class="pf-v6-c-table__th">{{ 'Name'|t }}</th>
+        <th class="pf-v6-c-table__th">{{ 'Label'|t }}</th>
+        <th class="pf-v6-c-table__th">{{ 'Type'|t }}</th>
+        <th class="pf-v6-c-table__th">{{ 'Description'|t }}</th>
       </tr>
     </thead>
     <tbody>
@@ -26,7 +26,7 @@
         </tr>
       {% endfor %}
       {% for prop_id, prop in component.props.properties %}
-        {% if prop_id != 'attributes' %}
+        {% if prop_id != 'attributes' and prop_id != 'variant' %}
           <tr class="ui_patterns_component_table__prop pf-v6-c-table__tr">
             <td class="pf-v6-c-table__td">
               <code>{{ prop_id }}</code>

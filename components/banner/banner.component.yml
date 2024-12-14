@@ -1,7 +1,7 @@
 name: Banner
-description: 'Provide a 1-line, full color, full width container that can be used to communicate short snippets of information to users.'
+description: "Provide a 1-line, full color, full width container that can be used to communicate short snippets of information to users."
 links:
-  - 'https://www.patternfly.org/components/banner'
+  - "https://www.patternfly.org/components/banner"
 variants:
   default:
     title: Default
@@ -32,4 +32,3 @@ slots:
   content:
     title: Content
     description: The banner content
-

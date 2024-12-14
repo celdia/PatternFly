@@ -1,0 +1,18 @@
+name: Masthead
+description: "Contains and organizes global properties like a logo, navigation, and settings for easy and consistent access across all pages of an application."
+links:
+  - "https://www.patternfly.org/components/masthead"
+slots:
+  main:
+    title: Main
+  logo:
+    title: Logo
+  content:
+    title: Content
+props:
+  type: object
+  properties:
+    logo_url:
+      title: Logo URL
+      type: string
+      format: iri-reference

@@ -1,0 +1,9 @@
+name: Without home link
+props:
+  items:
+    - title: Section home
+    - title: Section title
+      url: "#"
+    - title: Section title
+      url: "#"
+    - title: Section landing
