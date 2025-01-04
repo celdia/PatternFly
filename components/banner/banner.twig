@@ -1,3 +1,30 @@
+{% set icons = {
+  success: 'fas fa-check-circle',
+  warning: 'fas fa-exclamation-triangle',
+  danger: 'fas fa-exclamation-circle',
+  info: 'fas fa-info-circle',
+  custom: 'fas fa-bell',
+} %}
+
+{% set banner_classes = [
+  'pf-v6-c-banner',
+  'pf-m-' ~ variant|default('success'),
+] %}
+
+{% set icon_class = icons[variant|default('success')] %}
+
+{% if icon_class %}
+<div {{ attributes.addClass(banner_classes) }}>
+  <div class="pf-v6-l-flex pf-m-space-items-sm">
+    <div class="pf-v6-l-flex__item">
+      <span class="pf-v6-screen-reader">{{ variant|capitalize}} banner:</span>
+      <i class="{{ icon_class }}" aria-hidden="true"></i>
+    </div>
+    <div class="pf-v6-l-flex__item">{{ variant|capitalize}} banner</div>
+  </div>
+</div>
+{% endif %}
+
 {% set attributes = (variant != 'default') ? attributes.addClass('pf-m-' ~ variant) : attributes %}
 {% set attributes = sticky ? attributes.addClass('pm-m-sticky') : attributes %}
 {% if status %}

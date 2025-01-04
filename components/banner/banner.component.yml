@@ -21,9 +21,22 @@ variants:
     title: Blue
   purple:
     title: Purple
+  success:
+    title: Success
+  warning:
+    title: Warning
+  danger:
+    title: Danger
+  info:
+    title: Info
+  custom:
+    title: Custom
 props:
   type: object
   properties:
+    icon:
+      title: Icon
+      type: string
     sticky:
       type: boolean
       title: Sticky

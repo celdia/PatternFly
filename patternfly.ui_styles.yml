@@ -1,0 +1,17 @@
+background_color:
+  label: Background color
+  links:
+    - https://www.patternfly.org/utility-classes/background-color
+  options:
+    pf-v6-u-background-color-disabled: Disabled
+    pf-v6-u-background-color-inverse: Inverse
+    pf-v6-u-background-color-highlight: Highlight
+
+box_shadow:
+  label: Boxshadow
+  links:
+    - https://www.patternfly.org/utility-classes/box-shadow
+  options:
+    pf-v6-u-box-shadow-sm: Small
+    pf-v6-u-box-shadow-md: Medium
+    pf-v6-u-box-shadow-lg: Large
