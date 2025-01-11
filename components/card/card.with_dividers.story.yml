@@ -1,0 +1,10 @@
+name: With Dividers
+props:
+  with_dividers: true
+slots:
+  title: Title
+  body: Body
+  footer: Footer
+
+
+

@@ -1,0 +1,8 @@
+name: Default
+slots:
+  title: Title
+  body: Body
+  footer: Footer
+
+
+

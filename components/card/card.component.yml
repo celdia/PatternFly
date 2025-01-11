@@ -1,0 +1,57 @@
+name: Card
+description: "A card is a content container that displays entry-level information—typically within dashboards, galleries, and catalogs"
+links:
+  - "https://www.patternfly.org/components/card"
+variants:
+  default:
+    title: Default
+  secondary:
+    title: Secondary
+  compact:
+    title: Compact
+  large:
+    title: Large
+  plain:
+    title: Plain
+slots:
+  image:
+    title: Image
+  title:
+    title: Title
+  body:
+    title: Body
+  footer:
+    title: Footer
+  action:
+    title: Action
+props:
+  type: object
+  properties:
+    heading_level:
+      title: "Heading level"
+      type: integer
+      enum:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+      "meta:enum":
+        2: "h2 (Default)"
+        3: h3
+        4: h4
+        5: h5
+        6: h6
+    with_dividers:
+      title: "With Dividers ?"
+      type: boolean
+
+
+
+
+
+
+
+
+
+

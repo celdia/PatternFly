@@ -1,0 +1,24 @@
+{% set attributes = variant and (variant != 'default') ? attributes.addClass('pf-m-' ~ variant) : attributes %}
+<div {{ attributes.addClass('pf-v6-c-card') }}>
+  {% if title %}
+    <div class="pf-v6-c-card__title">
+      <h2 class="pf-v6-c-card__title-text">{{ title }}</h2>
+    </div>
+  {% endif %}
+  {% if title and with_dividers  %}
+  <hr class="pf-v6-c-divider" />
+  {% endif %}
+  {% if body %}
+    <div class="pf-v6-c-card__body">
+      {{ body }}
+    </div>
+  {% endif %}
+  {% if body and with_dividers  %}
+    <hr class="pf-v6-c-divider" />
+  {% endif %}
+  {% if footer %}
+    <div class="pf-v6-c-card__footer">
+      {{ footer }}
+    </div>
+  {%  endif %}
+</div>
