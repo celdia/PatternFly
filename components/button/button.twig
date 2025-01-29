@@ -1,0 +1,24 @@
+{#{% set attributes = variant and (variant != 'primary') ? attributes.addClass('pf-m-' ~ variant) : "pf-m-primary" %}#}
+
+<button {{ attributes.addClass("pf-v6-c-button", "pf-m-" ~ variant) }}>
+  <span class="pf-v6-c-button__text">{{ Text }}</span>
+</button>
+
+{#{% if '_' in variant %}
+  {% set attributes = variant | split('_') %}
+  <button {{ attributes.addClass("pf-v6-c-button", "pf-m-" ~ [0], "pf-m-" ~ [1]) }}>
+  <span class="pf-v6-c-button__text">{{ Text }}</span>
+  </button>
+{% endif %}#}
+
+{% set variant_classes = button.variant|split(' ') %}
+  {% for variant_class in variant_classes %}
+    {% set attributes = attributes|merge({'class': attributes.class|merge(['pf-m-' ~ variant_class])}) %}
+  {% endfor %}
+
+
+
+
+
+
+

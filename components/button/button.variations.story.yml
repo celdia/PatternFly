@@ -1,0 +1,4 @@
+name: Variations
+slots:
+  text: "Hello world"
+  icon: Icon

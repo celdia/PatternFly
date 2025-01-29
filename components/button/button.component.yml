@@ -1,0 +1,33 @@
+name: Button
+description: "an object that communicates and triggers an action when it is clicked or selected"
+links:
+  - "https://www.patternfly.org/components/button"
+variants:
+  primary:
+    title: Primary
+  secondary:
+    title: Secondary
+  secondary_danger:
+    title: Secondary danger
+  tertiary:
+    title: Tertiary
+  danger:
+    title: Danger
+  warning:
+    title: Warning
+  link:
+    title: Link
+  link_danger:
+    title: Link danger
+  inline_link:
+    title: Inline link
+  plain:
+    title: Plain
+slots:
+  text:
+    title: Text
+  icon:
+    title: Icon
+
+
+
